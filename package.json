@@ -1,0 +1,16 @@
+{
+  "name": "trilio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded assets/scss/main.scss assets/css/style.css",
+    "sass-prod": "sass --no-source-map --style=compressed assets/scss:assets/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^21.2.0",
+    "sass": "^1.69.5"
+  }
+}

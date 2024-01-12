@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair+Display:ital@1&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="assets/img/logo.png" alt="" class="logo">
+
+      <form action="#" class="search">
+        <input type="text" class="search__input" placeholder="Search hotel">
+        <button class="search__button">
+          <svg class="search__icon">
+            <img src="assets/img/SVG/magnifying-glass.svg" alt="">
+          </svg> 
+        </button>
+      </form>
+
+      <nav class="user-nav">
+        <div class="user-nav__icon-box">
+            <img class="user-nav__icon" src="assets/img/SVG/bookmark.svg" alt="">
+          <span class="user-nav__notification">7</span>
+        </div>
+        <div class="user-nav__icon-box">
+            <img class="user-nav__icon" src="assets/img/SVG/chat.svg" alt="">
+          <span class="user-nav__notification">3</span>
+        </div>
+        <div class="user-nav__user">
+          <img src="assets/img/user.jpg" alt="" class="user-nav__user-photo">
+          <span class="user-nav__user-name">sobhan</span>
+        </div>
+      </nav>
+    </header>
+    <div class="content">
+      <nav class="sidebar">
+        <ul class="side-nav">
+          <li class="side-nav__item side-nav__item--active">
+            <a href="#" class="side-nav__link">
+              <img class="side-nav__icon" src="assets/img/SVG/home.svg" alt="">
+              <span>Hotel</span>
+            </a>
+          </li>
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link">
+              <img class="side-nav__icon" src="assets/img/SVG/aircraft-take-off.svg" alt="">
+              <span>Flight</span>
+            </a>
+          </li>
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link">
+              <img class="side-nav__icon" src="assets/img/SVG/key.svg" alt="">
+              <span>Car rentel</span>
+            </a>
+          </li>
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link">
+              <img class="side-nav__icon" src="assets/img/SVG/map.svg" alt="">
+              <span>Tours</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="legal">
+          &copy; 2017 by trillo. All rights reserved.
+        </div>
+      </nav>
+
+
+      <main class="hotel-view">
+        <div class="gallery">
+          <figure class="gallery__item">
+            <img class="gallery__photo" src="assets/img/hotel-1.jpg" alt="">
+          </figure>
+          <figure class="gallery__item">
+            <img class="gallery__photo" src="assets/img/hotel-2.jpg" alt="">
+          </figure>
+          <figure class="gallery__item">
+            <img class="gallery__photo" src="assets/img/hotel-3.jpg" alt="">
+          </figure>
+        </div>
+
+        <div class="overview">
+          <h1 class="overview__heading">
+            Hotel Las Palmas
+          </h1>
+
+          <div class="overview__stars">
+            <img class="overview__icon-star" src="assets/img/SVG/star.svg" alt="">
+            <img class="overview__icon-star" src="assets/img/SVG/star.svg" alt="">
+            <img class="overview__icon-star" src="assets/img/SVG/star.svg" alt="">
+            <img class="overview__icon-star" src="assets/img/SVG/star.svg" alt="">
+            <img class="overview__icon-star" src="assets/img/SVG/star.svg" alt="">
+          </div>
+
+          <div class="overview__location">
+            <img class="overview__icon-location" src="assets/img/SVG/location-pin.svg" alt="">
+            <button class="btn-inline">Albufeira, Portugal</button>
+          </div>
+
+          <div class="overview__rating">
+            <div class="overview__rating-average">8.6</div>
+            <div class="overview__rating-count">429 votes</div>
+          </div>
+        </div>
+
+        <div class="detail">
+          <div class="description">
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptates aut 
+              velit quisquam repudiandae architecto id, earum hic veniam nisi accusantium corporis
+               ut autem. dignissimos eveniet.
+            </p>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptates aut 
+              ut autem. dignissimos eveniet.
+            </p>
+            <ul class="list">
+              <li class="list__item">close to the beach</li>
+              <li class="list__item">breakfast included</li>
+              <li class="list__item">free wifi in all</li>
+              <li class="list__item">free airport</li>
+              <li class="list__item">close to the beach</li>
+              <li class="list__item">free airport</li>
+              <li class="list__item">free wifi in all</li>
+              <li class="list__item">breakfast included</li>
+            </ul>
+            <div class="recommend">
+              <p class="recommend__count">
+                Lucy and 3 other friends recommend this hotrl.
+              </p>
+              <div class="recommend__friends">
+                <img src="assets/img/user.jpg" alt="" class="recommend__photo">
+                <img src="assets/img/user.jpg" alt="" class="recommend__photo">
+                <img src="assets/img/user.jpg" alt="" class="recommend__photo">
+                <img src="assets/img/user.jpg" alt="" class="recommend__photo">
+              </div>
+            </div>
+          </div>
+
+          <div class="user-reviews">
+            <figure class="review">
+              <blockquote class="review__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptates aut 
+                ut autem. dignissimos eveniet.
+              </blockquote>
+              <figcaption class="review__user">
+                <img src="assets/img/user.jpg" alt="" class="review__photo">
+                <div class="review__user-box">
+                  <p class="review__user-name">sobhan akbari</p>
+                  <p class="review__user-date">Feb 23rd, 2017</p>
+                </div>
+                <div class="review__rating">7.8</div>
+              </figcaption>
+            </figure>
+
+
+            <figure class="review">
+              <blockquote class="review__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptates aut 
+                ut autem.
+              </blockquote>
+              <figcaption class="review__user">
+                <img src="assets/img/user.jpg" alt="" class="review__photo">
+                <div class="review__user-box">
+                  <p class="review__user-name">armin safai</p>
+                  <p class="review__user-date">Feb 10rd, 2005</p>
+                </div>
+                <div class="review__rating">6.5</div>
+              </figcaption>
+            </figure>
+
+            <button class="btn-inline">show all <span>&rarr;</span></button>
+          </div>
+        </div>
+        
+        <div class="cta">
+          <h2 class="cta__book-now">
+            Good news! we have 4 free roots for your selected detas!
+          </h2>
+          <button  class="btn">
+            <span class="btn__visible">book now</span>
+            <span class="btn__invisible">only 4 room left</span>   
+          </button>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
